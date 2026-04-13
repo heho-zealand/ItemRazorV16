@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ItemRazorV1.Migrations
 {
     [DbContext(typeof(ItemDbContext))]
-    [Migration("20230324085928_ItemRazor")]
-    partial class ItemRazor
+    [Migration("20260413141045_itemrazor")]
+    partial class itemrazor
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -29,6 +29,14 @@ namespace ItemRazorV1.Migrations
                 {
                     b.Property<int>("Id")
                         .HasColumnType("int");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ItemImage")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Name")
                         .IsRequired()

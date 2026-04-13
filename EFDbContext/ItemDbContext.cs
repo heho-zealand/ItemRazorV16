@@ -7,7 +7,7 @@ namespace ItemRazorV1.EFDbContext
     {
         protected override void OnConfiguring(DbContextOptionsBuilder options)
         {
-            options.UseSqlServer(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=ItemDBv2; Integrated Security=True; Connect Timeout=30; Encrypt=False");
+            options.UseSqlServer(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=ItemDBv5; Integrated Security=True; Connect Timeout=30; Encrypt=False");
         }
 
         public DbSet<Item> Items { get; set; }

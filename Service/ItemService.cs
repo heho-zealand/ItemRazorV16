@@ -16,9 +16,9 @@ namespace ItemRazorV1.Service
             _jsonFileItemService = jsonFileItemService;
             _dbService = dbService;
             // _items = MockItems.GetMockItems();
-            _items = _jsonFileItemService.GetJsonObjects().ToList();
+            //_items = _jsonFileItemService.GetJsonObjects().ToList();
             //_dbService.SaveObjects(_items);
-            //_items = _dbService.GetObjectsAsync().Result.ToList();
+            _items = _dbService.GetObjectsAsync().Result.ToList();
         }
 
         public ItemService()
@@ -29,8 +29,8 @@ namespace ItemRazorV1.Service
         public async Task AddItemAsync(Item item)
         {
             _items.Add(item);
-            _jsonFileItemService.SaveJsonObjects(_items);
-            //await _dbService.AddObjectAsync(item);
+            //_jsonFileItemService.SaveJsonObjects(_items);
+            await _dbService.AddObjectAsync(item);
         }
 
         public Item GetItem(int id)
@@ -58,8 +58,8 @@ namespace ItemRazorV1.Service
                         i.ItemImage = item.ItemImage;
                     }
                 }
-                _jsonFileItemService.SaveJsonObjects(_items);
-                //await _dbService.UpdateObjectAsync(item);
+                //_jsonFileItemService.SaveJsonObjects(_items);
+                await _dbService.UpdateObjectAsync(item);
             }
         }
 
@@ -78,8 +78,8 @@ namespace ItemRazorV1.Service
             if (itemToBeDeleted != null)
             {
                 _items.Remove(itemToBeDeleted);
-                _jsonFileItemService.SaveJsonObjects(_items);
-                //await _dbService.DeleteObjectAsync(itemToBeDeleted);
+                //_jsonFileItemService.SaveJsonObjects(_items);
+                await _dbService.DeleteObjectAsync(itemToBeDeleted);
             }
 
             return itemToBeDeleted;
