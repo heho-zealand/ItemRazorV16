@@ -1,0 +1,19 @@
+﻿@page
+@model ItemRazorV1.Pages.Item.DetailItemModel
+@{
+}
+
+<div class = "row mt-4">
+    <div class="col-lg-3 mb-4"></div>
+    <div class="col-lg-6 mb-4">
+        <div class="card">
+            <img src="~/images/@Model.Item.ItemImage" />
+            <div class="card-body">
+                <h3 class="card-title mb-2"><span>@Model.Item.Name</span></h3>  
+                <div class="card-text mb-4"><span>@Model.Item.Description</span></div>   
+                <h6 class="card-footer text-muted"><span>Pris: @Model.Item.Price</span></h6>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3 mb-4"></div>
+</div>

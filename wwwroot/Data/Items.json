@@ -1,0 +1,51 @@
+[
+  {
+    "Id": 1,
+    "Name": "Microsoft Surface Pro 7\u002B Core i7 512GB 12.3",
+    "Price": 13495.00,
+    "Description": "Oplev en ultimativ ydeevne og enest\u00E5ende produktivitet med Microsoft Surface Pro 7\u002B - en revolutionerende enhed, der giver dig mulighed for at fuldf\u00F8re en lang r\u00E6kke opgaver hurtigt og nemt. Med en imponerende Intel Core i7-processor og 16 GB RAM kan du arbejde med flere applikationer p\u00E5 samme tid, mens du opretholder en bl\u00E6ndende hastighed, og med en 512 GB SSD kan du nemt gemme og \u00E5bne dine filer s\u00E5 hurtigt som muligt.",
+    "ItemImage": "surface-pro.jpg"
+  },
+  {
+    "Id": 2,
+    "Name": "LG 24\u0022 24MD4KL Ultrafine 4K Monitor 24\u0022",
+    "Price": 4499.00,
+    "Description": "LG 24MD4KL 23,7\u0022 3840 x 2160 16:9 4K sk\u00E6rmen har imponerende billeder takket v\u00E6re LG UltraFine 4K IPS-panelet, som har en us\u00E6dvanligt h\u00F8j billedklarhed. Oplev enkel macOS-integration med muligheden for at \u00E6ndre sk\u00E6rmindstillingerne i macOS.",
+    "ItemImage": "Ultrafine-Monitor-24.jpg"
+  },
+  {
+    "Id": 3,
+    "Name": "Terminal bord, h\u00E6ve s\u00E6nke",
+    "Price": 14000.00,
+    "Description": "Daarbak Design h\u00E6ve/s\u00E6nkebord i god kvalitet med mange funktioner og detaljer. Meget lavt str\u00F8mforbrug, 0,1 watt ved standby. Sensi touch -Automatisk stop ved kollision pga. indbygget gyroteknologi, bordet k\u00F8rer 50 mm v\u00E6k fra forhindringen. L\u00F8ftekraft 100 kg j\u00E6vnt fordelt (50 kg. ved en motor) og kun 37dB lyd ved k\u00F8rsel. L\u00F8fteh\u00F8jde 62,5-127,5 cm.",
+    "ItemImage": "Terminalbord.jpg"
+  },
+  {
+    "Id": 4,
+    "Name": "Logitech M705 Mus Tr\u00E5dl\u00F8s S\u00F8lv",
+    "Price": 269.00,
+    "Description": "F\u00E5 en mere naturlig stilling, og giv dig selv et lift Den vertikale ergonomiske mus Lift har en fantastisk pasform til sm\u00E5 og mellemstore h\u00E6nder og er komfortabel fra solopgang til sen aften.",
+    "ItemImage": "Logitech-M705-Mus.jpg"
+  },
+  {
+    "Id": 5,
+    "Name": "Voxicon Ergomouse M910 2,400dpi Mus Tr\u00E5dl\u00F8s Sort; S\u00F8lv",
+    "Price": 319.00,
+    "Description": "F\u00E5 en mere naturlig stilling, og giv dig selv et lift Den vertikale ergonomiske mus Lift har en fantastisk pasform til sm\u00E5 og mellemstore h\u00E6nder og er komfortabel fra solopgang til sen aften.",
+    "ItemImage": "Voxicon-Ergomouse-M910.jpg"
+  },
+  {
+    "Id": 6,
+    "Name": "Logitech HD Pro Webcam C920 Sort",
+    "Price": 719.00,
+    "Description": "G\u00F8r et godt indtryk, n\u00E5r det virkelig g\u00E6lder, med C920 i f\u00F8rsteklasses kvalitet. Uanset om du foretager videoopkald eller optager, vil du blive vist klart og tydeligt i skarpe farver og med flydende video takket v\u00E6re opl\u00F8sningen i Full HD 1030p med 30 fps.",
+    "ItemImage": "Logitech-HD-Pro-Webcam-C920.jpg"
+  },
+  {
+    "Id": 14,
+    "Name": "Mus",
+    "Price": 199.95,
+    "Description": "Fin lille mus",
+    "ItemImage": "e3d1b434-fa39-4c5c-a162-0c97cdb34eac_IM23_1.jpg"
+  }
+]
